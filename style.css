@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(13, 22, 49);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(64, 64, 102);
+    height: 45px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 2px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(125, 125, 163);
+    font-size: 1.1rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 2px;
+    align-items: center;
+}
+.firstsection > div{
+width: 30%;
+
+}
+.purple{
+    color: rgb(205, 176, 233);
+}
+#element{
+    color: rgb(205, 176, 233);
+}
+
+.leftsection{
+ /* background-color: red;  */
+ font-size: 2.5rem;
+  
+}
+
+.rightsection img{
+    height: 100%;
+    width: 100%;
+}
+hr{
+    border: 0;
+    background-color: #91afdb;
+    height: 2px;
+    margin: 45px 60px;
+}
+.secondsection{
+    width: 80vw;
+    margin: auto;
+    height: 80vw;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.grey{
+    color: #bdb1b1;
+}
+.secondsection .box{
+    width: 72 vw;
+    background: white;
+    height: 1px;
+    margin: 45px 2px;
+    display: flex;
+}
+.secondsection .vertical{
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    margin: 0px 80px;
+}
+
+.image {
+    width: 23px;
+    position: relative;
+    top: -24px;
+    left: -12px;
+}
+.verticaltitle{
+    position: relative;
+    top: 20px;
+    left: -17px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(144, 144, 148);
+    color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 12px 4px;
+}
+.btn:hover{
+    color: rgb(41, 40, 40);
+    background-color: rgb(165, 165, 206);
+}
